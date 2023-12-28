@@ -10,3 +10,36 @@
 *::after {
     box-sizing: inherit;
 }
+
+body {
+    background-color: #c59474;
+}
+
+.header,
+.footer {
+    background-color: #6d4a31;
+}
+
+.sidebar {
+    background-color: #817190;
+}
+
+.announcements {
+    background-color: #8a8e7d;
+}
+
+.midjourney {
+    background-color: #8a8e7d;
+}
+
+.sorry {
+    background-color: #8a8e7d;
+}
+
+.preview-img {
+    width: 400px;
+}
+
+.midjourney-img {
+    width: 200px;
+}

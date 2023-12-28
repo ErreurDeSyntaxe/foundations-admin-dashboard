@@ -29,3 +29,11 @@ Project, Full Stack JavaScript path. I have learned much since starting the
 Foundations path, but the feeling of growth has continued throughout the current
 course. I look forward to starting the JavaScript course. But first, I need
 to start and complete this project.  
+
+I took a quick look at my landing page project, and I remember it was difficult.
+Perhaps outside observers can also tell I struggled a lot with Flexbox because
+the project looks terrible. I already wanted to go back and fix the README files
+to use the current model, but now I want to redo the landing page project from 
+zero. It would probably take a very short time, but it's also not worth it right
+now. Maybe a later project will require a nice landing page, and I will have 
+the justification I need. 
