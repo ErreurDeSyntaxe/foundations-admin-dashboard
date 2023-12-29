@@ -7,63 +7,123 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <div class="container">
+    <div class="main-container">
         <div class="header">
-            <div class="logo">
-                <img src="./images/memento-mori-small.png" alt="A human skull decorated with flowers, a reminder that all must die">
+            <div class="header-top">
+                <form>
+                    <button type="submit"><img src="./icons/search.svg" alt="a magnifying glass icon"></button>
+                    <input class="search-bar" type="text" placeholder="Search.." name="user_search">
+                </form>
+                <div class="notifications">
+                    <img src="./icons/notification.svg" alt="bell icon">
+                </div>
+                <div class="logo">
+                    <img class="logo-img" src="./images/memento-mori-small.png"
+                        alt="A human skull decorated with flowers, a reminder that all must die">
+                </div>
+                <div class="name">
+                    Erreur de Syntaxe
+                </div>
             </div>
-            <div class="menu">
-                <ul>
-                    <li><a href="./sorry.html">Link One</a></li>
-                    <li><a href="./sorry.html">Link Two</a></li>
-                    <li><a href="./sorry.html">Link Three</a></li>
-                </ul>
+            <div class="header-bottom">
+                <div class="logo">
+                    <img class="logo-img" src="./images/memento-mori-small.png"
+                        alt="A human skull decorated with flowers, a reminder that all must die">
+                </div>
+                <div class="hello">
+                    <p>Hello there,</p>
+                    <p>Erreur de Syntaxe (@erreur)</p>
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="./sorry.html">New</a></li>
+                        <li><a href="./sorry.html">Upload</a></li>
+                        <li><a href="./sorry.html">Share</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
         <div class="sidebar">
-            <div class="sidebar-items item1"><a href="./index.html"><img src="./icons/home.svg" alt="">Home</a></div>
-            <div class="sidebar-items item2"><a href="./sorry.html"><img src="./icons/profile.svg" alt="">Profile</a></div>
-            <div class="sidebar-items item3"><a href="./sorry.html"><img src="./icons/settings.svg" alt="">Settings</a></div>
-            <div class="sidebar-items item4"><a href="./sorry.html"><img src="./icons/support.svg" alt="">Support</a></div>
-            <div class="sidebar-items item5"><a href="./sorry.html"><img src="./icons/privacy.svg" alt="">Privacy</a></div>
+            <div class="sidebar-items item0"><img src="./icons/dashboard.svg" alt="dashboard icon">Dashboard</a></div>
+            <div class="sidebar-items item1"><a href="./index.html"><img src="./icons/home.svg" alt="home icon">Home</a></div>
+            <div class="sidebar-items item2"><a href="./sorry.html"><img src="./icons/profile.svg" alt="profile icon">Profile</a></div>
+            <div class="sidebar-items item3"><a href="./sorry.html"><img src="./icons/settings.svg" alt="cog icon">Settings</a></div>
+            <div class="sidebar-items item4"><a href="./sorry.html"><img src="./icons/support.svg" alt="customer support icon">Support</a></div>
+            <div class="sidebar-items item5"><a href="./sorry.html"><img src="./icons/privacy.svg" alt="privacy icon">Privacy</a></div>
         </div>
         <div class="projects">
-            <div class="project-card project01">Stoicism's Recipes<img class="preview-img" src="./images/recipes-preview.png" alt=""></div>
-            <div class="project-card project02">Rock Paper Scissors<img class="preview-img" src="./images/rock-preview.png" alt=""></div>
-            <div class="project-card project03">Etch A Sketch<img class="preview-img" src="./images/etch-preview.png" alt=""></div>
-            <div class="project-card project04">Simple Calculator<img class="preview-img" src="./images/calc-preview.png" alt=""></div>
-            <div class="project-card project05">Sign-up Form<img class="preview-img" src="./images/sign-up-preview.png" alt=""></div>
+            <h1>My Projects</h1>
+            <div class="project-container">
+                <div class="project-card project01">
+                    <a href="https://erreurdesyntaxe.github.io/odin-recipes/">
+                        Stoicism's Recipes<img class="preview-img" src="./images/recipes-preview.png" alt="">
+                    </a>
+                </div>
+                <div class="project-card project02">
+                    <a href="https://erreurdesyntaxe.github.io/rock-paper-scissors/">
+                        Rock Paper Scissors<img class="preview-img" src="./images/rock-preview.png" alt="">
+                    </a>
+                </div>
+                <div class="project-card project03">
+                    <a href="https://erreurdesyntaxe.github.io/etch-a-sketch/">
+                        Etch A Sketch<img class="preview-img" src="./images/etch-preview.png" alt="">
+                    </a>
+                </div>
+                <div class="project-card project04">
+                    <a href="https://erreurdesyntaxe.github.io/top-calculator/">
+                        Simple Calculator<img class="preview-img" src="./images/calc-preview.png" alt="">
+                    </a>
+                </div>
+                <div class="project-card project05">
+                    <a href="https://erreurdesyntaxe.github.io/sign-up-form/">
+                        Sign-up Form<img class="preview-img" src="./images/sign-up-preview.png" alt="">
+                    </a>
+                </div>
+            </div>
         </div>
         <div class="announcements">
-            <div class="announcement-card announcement1">
-                <h6>Course Completion</h6>
-                <p>Today marks the end of the first course on the path to becoming a full stack JavaScript web developer. It is a milestone that brings me joy and comfort in these difficult times.</p>
-            </div>
-            <div class="announcement-card announcement2">
-                <h6>Project Submission</h6>
-                <p>The admin dashboard project is officially complete, although I will surely come back to it during future lessons to improve certain aspects and practice new skills.</p>
-            </div>
-            <div class="announcement-card announcement3">
-                <h6>Project Start</h6>
-                <p>The last project of the Intermediate HTML and CSS course starts today. My wife and I are surprised by the pace of my learning and the quality of my projects so far. It gives us hope.</p>
+            <h1>Announcements</h1>
+            <div class="announcement-container">
+                <div class="announcement-card announcement1">
+                    <h3>Course Completion</h3>
+                    <p>Today marks the end of the first course on the path to becoming a full stack JavaScript web developer.</p>
+                </div>
+                <div class="announcement-card announcement2">
+                    <h3>Project Submission</h3>
+                    <p>The admin dashboard project is officially complete, although I will surely come back to it during future lessons.</p>
+                </div>
+                <div class="announcement-card announcement3">
+                    <h3>Project Start</h3>
+                    <p>The last project of the Intermediate HTML and CSS course starts today. It gives us hope.</p>
+                </div>
             </div>
         </div>
         <div class="midjourney">
-            Here are some images that I prompted MidJourney to create.
-            <div>
-                <img class="midjourney-img" src="./images/mid1.png" 
-                alt="An interesting image from MidJourney">
-            </div>
-            <div>
-                <img class="midjourney-img" src="./images/mid2.png" 
-                alt="An interesting image from MidJourney">
-            </div>
-            <div>
-                <img class="midjourney-img" src="./images/mid3.png" 
-                alt="An interesting image from MidJourney">
+            <h1>Cool Stuff</h1>
+            <div class="midjourney-container">
+                <div class="midjourney-card mj-card1">
+                    <img class="midjourney-img" src="./images/mid1.png"
+                    alt="An interesting image from MidJourney: a man atop a tall mountain">
+                </div>
+                <div class="midjourney-card mj-card2">
+                    <img class="midjourney-img" src="./images/mid2.png"
+                    alt="An interesting image from MidJourney: an anxious-looking young woman">
+                </div>
+                <div class="midjourney-card mj-card3">
+                    <img class="midjourney-img" src="./images/mid3.png"
+                    alt="An interesting image from MidJourney: a verbal altercation between two women">
+                </div>
             </div>
         </div>
-        <div class="footer" align="center">This website was created by <a href="https://github.com/erreurDeSyntaxe/">ErreurDeSyntaxe</a> in the context of <a href="https://www.theodinproject.com/">The Odin Project</a>'s Full Stack <a href="https://www.theodinproject.com/paths/full-stack-javascript">JavaScript</a> path. Images made by MidJourney V4</div>
+        <div class="footer">
+            <span>This website was created by
+                <a href="https://github.com/erreurDeSyntaxe/">ErreurDeSyntaxe</a>
+                in the context of
+                <a href="https://www.theodinproject.com/">The Odin Project</a>'s Full Stack
+                <a href="https://www.theodinproject.com/paths/full-stack-javascript">JavaScript</a> path.
+                Images made by MidJourney V4.
+            </span>
+        </div>
     </div>
 </body>
 </html>

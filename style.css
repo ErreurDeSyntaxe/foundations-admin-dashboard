@@ -12,34 +12,111 @@
 }
 
 body {
-    background-color: #c59474;
+    font-family: Roboto, sans-serif;
+    background-color: red;
 }
 
-.header,
-.footer {
-    background-color: #6d4a31;
+.main-container {
+    background-color: bisque;
+    /* display: grid;
+    gap: 20px;
+    grid-template-columns: 220px 1fr minmax(200px, 300px); */
+}
+
+.header {
+    /* grid-column: 2/4; */
+    background-color: yellow;
+    display: flex;
+    & .header-top .logo-img {
+        border-radius: 50%;
+        height: 80px;
+    }
+    & .header-bottom .logo-img {
+        border-radius: 50%;
+        height: 100px;
+    }
+    & ul {
+        list-style: none;
+        display: flex;
+        gap: 2rem;
+        & a {
+            text-decoration: none;
+            font-size: 1.5rem;
+        }
+    }
+    & input[type=text] {
+        padding: 6px;
+        border: none;
+        width: 400px;
+        height: 2.2rem;
+    }
 }
 
 .sidebar {
-    background-color: #817190;
+    /* grid-row: 1 / span 3; */
+    background-color: lightgray;
+    font-size: 2rem;
+    & a {
+        color: black;
+        text-decoration: none;
+    }
+    & img {
+        width: 2rem;
+    }
+    & .item0 {
+        font-size: 2.7rem;
+        font-weight: 500;
+    }
+}
+
+.projects {
+    /* grid-column: 2/3;
+    grid-row: span 2; */
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)) ;
+    & .preview-img {
+        width: 300px;
+        border-radius: 8px;
+    }
+    & .project-card {
+        border-radius: 8px;
+        width: 350px;
+        height: 375px;
+        font-size: 2rem;
+        text-align: center;
+    }
 }
 
 .announcements {
-    background-color: #8a8e7d;
+    /* grid-column: 3/4; */
+    background-color: lightgray;
+    font-size: 1.3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: justify;
 }
 
 .midjourney {
-    background-color: #8a8e7d;
+    /* grid-column: 3/4; */
+    background-color: lightgray;
+    .midjourney-img {
+        width: 150px;
+    }
+}
+
+.footer {
+    /* grid-column: 1/4; */
+    background-color: yellow;
+    height: 2rem;
+    display: grid;
+    align-content: center;
+    text-align: center;
+    & a {
+        text-decoration: none;
+    }
 }
 
 .sorry {
-    background-color: #8a8e7d;
-}
-
-.preview-img {
-    width: 400px;
-}
-
-.midjourney-img {
-    width: 200px;
 }

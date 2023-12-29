@@ -4,7 +4,7 @@ An admin dashboard
 # Preview
 
 <div align="center">
-    <img src="">
+    <img src="./images/memento-mori.png">
 </div>
 
 # Links
