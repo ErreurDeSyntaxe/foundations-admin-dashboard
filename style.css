@@ -13,7 +13,7 @@
 
 body {
     font-family: Roboto, sans-serif;
-    background-color: white;
+    background-color: #71717a;
     display: grid;
     grid-template-columns: 300px 1fr;
     grid-template-rows: 200px 1fr 40px;
@@ -107,11 +107,12 @@ body {
 .sidebar {
     grid-row: 1 / 3;
     grid-column: 1 / 2;
-    background-color: lightgray;
+    background-color: #a1a1aa;
     font-size: 2rem;
     padding: 8px 10px;
+    color: #27272a;
     & a {
-        color: black;
+        color: #27272a;
         text-decoration: none;
     }
     & img {
@@ -124,25 +125,25 @@ body {
 }
 
 .main-content {
-    background-color: dimgray;
+    background-color: #f4f4f5;
     grid-row: 2 / 3;
     grid-column: 2 / 3;
     display: grid;
     gap: 24px;
     grid-template-columns: 1fr 350px;
-    grid-template-rows: 1fr 1fr;
     padding: 20px;
 }
 
 .projects {
     grid-column: 1 / 2;
     grid-row: 1 / 3;
+    color: #3f3f46;
 }
 
 .project-container {
     display: grid;
     gap: 24px;
-    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     & .preview-img {
         width: 85%;
         border-radius: 8px;
@@ -162,22 +163,24 @@ body {
 .announcements {
     grid-column: 2 / 3;
     grid-row: 1 / 2;
+    color: #3f3f46;
 }
 
 .announcement-container {
-    background-color: lightgray;
+    background-color: #e4e4e7;
     padding: 8px;
     border-radius: 8px;
 }
 
 .announcement-card {
-    border-top: 1px solid black;
+    border-top: 1px solid #f4f4f5;
     margin: 10px 0;
 }
 
 .midjourney {
     grid-column: 2 / 3;
     grid-row: 2 / 3;
+    color: #3f3f46;
     .midjourney-img {
         width: 70%;
         align-self: center;
@@ -187,7 +190,7 @@ body {
 }
 
 .midjourney-container {
-    background-color: lightgray;
+    background-color: #e4e4e7;
     padding: 8px;
     border-radius: 8px;
     display: flex;
@@ -198,7 +201,7 @@ body {
 .footer {
     grid-column: 1 / 3;
     grid-row: 3 / 4;
-    background-color: black;
+    background-color: #71717a;
     display: grid;
     align-content: center;
     text-align: center;

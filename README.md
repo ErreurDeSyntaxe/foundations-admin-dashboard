@@ -4,7 +4,7 @@ An admin dashboard
 # Preview
 
 <div align="center">
-    <img src="./images/memento-mori.png">
+    <img src="./images/project-preview.png">
 </div>
 
 # Links
@@ -21,8 +21,12 @@ An admin dashboard
 # Challenges
 
 Layout  
+Designing a beautiful page  
 
 # Lessons
+
+Grid is powerful  
+Flexbox is still useful  
 
 # Diary
 
@@ -43,3 +47,6 @@ the justification I need.
 The layout was a catastrophe, so I decided to restart. I wonder if I will start
 the layout from scratch again after submitting and reading other students'
 code.
+
+My project meets the requirements but looks ugly. I never really paid attention
+to aesthetics, design, or appearances, and now I pay the price.
