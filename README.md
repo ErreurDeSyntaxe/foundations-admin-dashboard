@@ -20,6 +20,8 @@ An admin dashboard
 
 # Challenges
 
+Layout  
+
 # Lessons
 
 # Diary
@@ -37,3 +39,7 @@ to use the current model, but now I want to redo the landing page project from
 zero. It would probably take a very short time, but it's also not worth it right
 now. Maybe a later project will require a nice landing page, and I will have 
 the justification I need. 
+
+The layout was a catastrophe, so I decided to restart. I wonder if I will start
+the layout from scratch again after submitting and reading other students'
+code.
