@@ -1,4 +1,4 @@
-# top-admin-dashboard
+# foundations-admin-dashboard
 An admin dashboard
 
 # Preview
@@ -11,7 +11,7 @@ An admin dashboard
 
 -[Assignment Page (Dec '23)](https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-admin-dashboard)
 
--[Finished Project](https://erreurdesyntaxe.github.io/top-admin-dashboard/)
+-[Finished Project](https://erreurdesyntaxe.github.io/foundations-admin-dashboard/)
 
 # Notable Features
 
